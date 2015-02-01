@@ -2,6 +2,7 @@
 #' 
 #' @param raster a raster upon which distance are calculated
 #' @param coords a file containing sample coordinates in lat long format
+#' @param mat_type an character string, indicating whether the returned matrix should contain spatial "weight" or absolute "distance".
 #' @return a square matrix containing the inverse pairwise distance between all
 #' points in \code{coords}.
 

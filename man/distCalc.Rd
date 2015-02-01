@@ -10,6 +10,8 @@ distCalc(raster, coords, mat_type = "weight")
 \item{raster}{a raster upon which distance are calculated}
 
 \item{coords}{a file containing sample coordinates in lat long format}
+
+\item{mat_type}{an character string, indicating whether the returned matrix should contain spatial "weight" or absolute "distance".}
 }
 \value{
 a square matrix containing the inverse pairwise distance between all

@@ -12,7 +12,7 @@ distCalc <- function(raster, coords, mat_type = "weight") {
   #coords <- "RBW_bl_coords.txt"
   rast <- raster::raster(raster)
   rast[rast == -9999] <- NA
-  rast[!is.na(rast[])] <- 1
+  #rast[!is.na(rast[])] <- 1
   
   # read sample coords
   # read the sample coordinates
